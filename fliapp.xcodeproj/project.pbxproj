@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D9BB8CA240AC7CC00E166C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BB8C9240AC7CC00E166C6 /* AppDelegate.swift */; };
+		4D9BB8CC240AC7CC00E166C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BB8CB240AC7CC00E166C6 /* SceneDelegate.swift */; };
+		4D9BB8CE240AC7CC00E166C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BB8CD240AC7CC00E166C6 /* ContentView.swift */; };
+		4D9BB8D0240AC7CE00E166C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9BB8CF240AC7CE00E166C6 /* Assets.xcassets */; };
+		4D9BB8D3240AC7CE00E166C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9BB8D2240AC7CE00E166C6 /* Preview Assets.xcassets */; };
+		4D9BB8D6240AC7CE00E166C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9BB8D4240AC7CE00E166C6 /* LaunchScreen.storyboard */; };
+		4D9BB8E1240AC7CE00E166C6 /* fliappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BB8E0240AC7CE00E166C6 /* fliappTests.swift */; };
+		4D9BB8EC240AC7CE00E166C6 /* fliappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BB8EB240AC7CE00E166C6 /* fliappUITests.swift */; };
+		4D9BB8FA240AC80900E166C6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D9BB8F9240AC80900E166C6 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D9BB8DD240AC7CE00E166C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D9BB8BE240AC7CC00E166C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D9BB8C5240AC7CC00E166C6;
+			remoteInfo = fliapp;
+		};
+		4D9BB8E8240AC7CE00E166C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D9BB8BE240AC7CC00E166C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D9BB8C5240AC7CC00E166C6;
+			remoteInfo = fliapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D9BB8C6240AC7CC00E166C6 /* fliapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fliapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9BB8C9240AC7CC00E166C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D9BB8CB240AC7CC00E166C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D9BB8CD240AC7CC00E166C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D9BB8CF240AC7CE00E166C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D9BB8D2240AC7CE00E166C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D9BB8D5240AC7CE00E166C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D9BB8D7240AC7CE00E166C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9BB8DC240AC7CE00E166C6 /* fliappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fliappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9BB8E0240AC7CE00E166C6 /* fliappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fliappTests.swift; sourceTree = "<group>"; };
+		4D9BB8E2240AC7CE00E166C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9BB8E7240AC7CE00E166C6 /* fliappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fliappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9BB8EB240AC7CE00E166C6 /* fliappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fliappUITests.swift; sourceTree = "<group>"; };
+		4D9BB8ED240AC7CE00E166C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9BB8F9240AC80900E166C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D9BB8C3240AC7CC00E166C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9BB8D9240AC7CE00E166C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9BB8E4240AC7CE00E166C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D9BB8BD240AC7CC00E166C6 = {
+			isa = PBXGroup;
+			children = (
+				4D9BB8F9240AC80900E166C6 /* README.md */,
+				4D9BB8C8240AC7CC00E166C6 /* fliapp */,
+				4D9BB8DF240AC7CE00E166C6 /* fliappTests */,
+				4D9BB8EA240AC7CE00E166C6 /* fliappUITests */,
+				4D9BB8C7240AC7CC00E166C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D9BB8C7240AC7CC00E166C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D9BB8C6240AC7CC00E166C6 /* fliapp.app */,
+				4D9BB8DC240AC7CE00E166C6 /* fliappTests.xctest */,
+				4D9BB8E7240AC7CE00E166C6 /* fliappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D9BB8C8240AC7CC00E166C6 /* fliapp */ = {
+			isa = PBXGroup;
+			children = (
+				4D9BB8C9240AC7CC00E166C6 /* AppDelegate.swift */,
+				4D9BB8CB240AC7CC00E166C6 /* SceneDelegate.swift */,
+				4D9BB8CD240AC7CC00E166C6 /* ContentView.swift */,
+				4D9BB8CF240AC7CE00E166C6 /* Assets.xcassets */,
+				4D9BB8D4240AC7CE00E166C6 /* LaunchScreen.storyboard */,
+				4D9BB8D7240AC7CE00E166C6 /* Info.plist */,
+				4D9BB8D1240AC7CE00E166C6 /* Preview Content */,
+			);
+			path = fliapp;
+			sourceTree = "<group>";
+		};
+		4D9BB8D1240AC7CE00E166C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D9BB8D2240AC7CE00E166C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D9BB8DF240AC7CE00E166C6 /* fliappTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D9BB8E0240AC7CE00E166C6 /* fliappTests.swift */,
+				4D9BB8E2240AC7CE00E166C6 /* Info.plist */,
+			);
+			path = fliappTests;
+			sourceTree = "<group>";
+		};
+		4D9BB8EA240AC7CE00E166C6 /* fliappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D9BB8EB240AC7CE00E166C6 /* fliappUITests.swift */,
+				4D9BB8ED240AC7CE00E166C6 /* Info.plist */,
+			);
+			path = fliappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D9BB8C5240AC7CC00E166C6 /* fliapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9BB8F0240AC7CE00E166C6 /* Build configuration list for PBXNativeTarget "fliapp" */;
+			buildPhases = (
+				4D9BB8C2240AC7CC00E166C6 /* Sources */,
+				4D9BB8C3240AC7CC00E166C6 /* Frameworks */,
+				4D9BB8C4240AC7CC00E166C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fliapp;
+			productName = fliapp;
+			productReference = 4D9BB8C6240AC7CC00E166C6 /* fliapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D9BB8DB240AC7CE00E166C6 /* fliappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9BB8F3240AC7CE00E166C6 /* Build configuration list for PBXNativeTarget "fliappTests" */;
+			buildPhases = (
+				4D9BB8D8240AC7CE00E166C6 /* Sources */,
+				4D9BB8D9240AC7CE00E166C6 /* Frameworks */,
+				4D9BB8DA240AC7CE00E166C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D9BB8DE240AC7CE00E166C6 /* PBXTargetDependency */,
+			);
+			name = fliappTests;
+			productName = fliappTests;
+			productReference = 4D9BB8DC240AC7CE00E166C6 /* fliappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D9BB8E6240AC7CE00E166C6 /* fliappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9BB8F6240AC7CE00E166C6 /* Build configuration list for PBXNativeTarget "fliappUITests" */;
+			buildPhases = (
+				4D9BB8E3240AC7CE00E166C6 /* Sources */,
+				4D9BB8E4240AC7CE00E166C6 /* Frameworks */,
+				4D9BB8E5240AC7CE00E166C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D9BB8E9240AC7CE00E166C6 /* PBXTargetDependency */,
+			);
+			name = fliappUITests;
+			productName = fliappUITests;
+			productReference = 4D9BB8E7240AC7CE00E166C6 /* fliappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D9BB8BE240AC7CC00E166C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Andrey Mikhaylin";
+				TargetAttributes = {
+					4D9BB8C5240AC7CC00E166C6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					4D9BB8DB240AC7CE00E166C6 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4D9BB8C5240AC7CC00E166C6;
+					};
+					4D9BB8E6240AC7CE00E166C6 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4D9BB8C5240AC7CC00E166C6;
+					};
+				};
+			};
+			buildConfigurationList = 4D9BB8C1240AC7CC00E166C6 /* Build configuration list for PBXProject "fliapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D9BB8BD240AC7CC00E166C6;
+			productRefGroup = 4D9BB8C7240AC7CC00E166C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D9BB8C5240AC7CC00E166C6 /* fliapp */,
+				4D9BB8DB240AC7CE00E166C6 /* fliappTests */,
+				4D9BB8E6240AC7CE00E166C6 /* fliappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D9BB8C4240AC7CC00E166C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9BB8D6240AC7CE00E166C6 /* LaunchScreen.storyboard in Resources */,
+				4D9BB8D3240AC7CE00E166C6 /* Preview Assets.xcassets in Resources */,
+				4D9BB8FA240AC80900E166C6 /* README.md in Resources */,
+				4D9BB8D0240AC7CE00E166C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9BB8DA240AC7CE00E166C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9BB8E5240AC7CE00E166C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D9BB8C2240AC7CC00E166C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9BB8CA240AC7CC00E166C6 /* AppDelegate.swift in Sources */,
+				4D9BB8CC240AC7CC00E166C6 /* SceneDelegate.swift in Sources */,
+				4D9BB8CE240AC7CC00E166C6 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9BB8D8240AC7CE00E166C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9BB8E1240AC7CE00E166C6 /* fliappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9BB8E3240AC7CE00E166C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9BB8EC240AC7CE00E166C6 /* fliappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D9BB8DE240AC7CE00E166C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D9BB8C5240AC7CC00E166C6 /* fliapp */;
+			targetProxy = 4D9BB8DD240AC7CE00E166C6 /* PBXContainerItemProxy */;
+		};
+		4D9BB8E9240AC7CE00E166C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D9BB8C5240AC7CC00E166C6 /* fliapp */;
+			targetProxy = 4D9BB8E8240AC7CE00E166C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D9BB8D4240AC7CE00E166C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D9BB8D5240AC7CE00E166C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D9BB8EE240AC7CE00E166C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D9BB8EF240AC7CE00E166C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D9BB8F1240AC7CE00E166C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"fliapp/Preview Content\"";
+				DEVELOPMENT_TEAM = YP896DRGZY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = fliapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amikhaylin.fliapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D9BB8F2240AC7CE00E166C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"fliapp/Preview Content\"";
+				DEVELOPMENT_TEAM = YP896DRGZY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = fliapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amikhaylin.fliapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D9BB8F4240AC7CE00E166C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP896DRGZY;
+				INFOPLIST_FILE = fliappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amikhaylin.fliappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fliapp.app/fliapp";
+			};
+			name = Debug;
+		};
+		4D9BB8F5240AC7CE00E166C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP896DRGZY;
+				INFOPLIST_FILE = fliappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amikhaylin.fliappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fliapp.app/fliapp";
+			};
+			name = Release;
+		};
+		4D9BB8F7240AC7CE00E166C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP896DRGZY;
+				INFOPLIST_FILE = fliappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amikhaylin.fliappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fliapp;
+			};
+			name = Debug;
+		};
+		4D9BB8F8240AC7CE00E166C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP896DRGZY;
+				INFOPLIST_FILE = fliappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amikhaylin.fliappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fliapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D9BB8C1240AC7CC00E166C6 /* Build configuration list for PBXProject "fliapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9BB8EE240AC7CE00E166C6 /* Debug */,
+				4D9BB8EF240AC7CE00E166C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D9BB8F0240AC7CE00E166C6 /* Build configuration list for PBXNativeTarget "fliapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9BB8F1240AC7CE00E166C6 /* Debug */,
+				4D9BB8F2240AC7CE00E166C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D9BB8F3240AC7CE00E166C6 /* Build configuration list for PBXNativeTarget "fliappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9BB8F4240AC7CE00E166C6 /* Debug */,
+				4D9BB8F5240AC7CE00E166C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D9BB8F6240AC7CE00E166C6 /* Build configuration list for PBXNativeTarget "fliappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9BB8F7240AC7CE00E166C6 /* Debug */,
+				4D9BB8F8240AC7CE00E166C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D9BB8BE240AC7CC00E166C6 /* Project object */;
+}
